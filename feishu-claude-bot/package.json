@@ -1,0 +1,22 @@
+{
+  "name": "feishu-claude-bot",
+  "version": "1.0.0",
+  "description": "飞书 Claude Bot - 在飞书中使用 Claude AI",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/v2/index.ts",
+    "build": "tsc",
+    "start": "node dist/v2/index.js"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.30.0",
+    "better-sqlite3": "^11.0.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
